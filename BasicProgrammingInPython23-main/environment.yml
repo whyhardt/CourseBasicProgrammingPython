@@ -1,0 +1,13 @@
+name: BPP
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+    - numpy
+    - pandas
+    - matplotlib
+    - tqdm
+    - jupyterlab
